@@ -1,0 +1,83 @@
+13:32:11.798 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+13:32:11.799 INFO - Launching a standalone Selenium Server
+2017-09-24 13:32:11.841:INFO::main: Logging initialized @409ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:32:11.968 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+13:32:11.969 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+13:32:11.969 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:32:11.969 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+13:32:11.969 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:32:11.969 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-09-24 13:32:12.064:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-09-24 13:32:12.118:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@4c70fda8{/,null,AVAILABLE}
+2017-09-24 13:32:12.161:INFO:osjs.AbstractConnector:main: Started ServerConnector@204f30ec{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-09-24 13:32:12.162:INFO:osjs.Server:main: Started @731ms
+13:32:12.163 INFO - Selenium Server is up and running
+13:32:12.893 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+13:32:12.945 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Slingshot Log In, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
+(KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
+13:32:12.974 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Slingshot Log In, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
+(KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
+Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 12420
+Only local connections are allowed.
+13:32:15.227 INFO - Detected dialect: OSS
+13:32:15.270 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Slingshot Log In, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
+(KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
+13:32:15.309 INFO - Executing: [get: https://demo.slingshothealth.com/app/login])
+13:32:16.465 INFO - Done: [get: https://demo.slingshothealth.com/app/login]
+13:32:16.478 INFO - Executing: [find elements: By.cssSelector: body])
+13:32:16.577 INFO - Done: [find elements: By.cssSelector: body]
+13:32:16.584 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: body]])
+13:32:16.617 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: body]]
+13:32:16.623 INFO - Executing: [get title])
+13:32:16.631 INFO - Done: [get title]
+13:32:16.638 INFO - Executing: [find element: By.cssSelector: button[type=submit]])
+13:32:16.667 INFO - Done: [find element: By.cssSelector: button[type=submit]]
+13:32:16.671 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: button[type=submit]]])
+13:32:16.694 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: button[type=submit]]]
+13:32:16.699 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+13:32:16.723 INFO - Done: [find element: By.cssSelector: input[type=text]]
+13:32:16.728 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: input[type=text]], [g, a, s, t, r, o, @, d, o, k, b, i, d, ., c, o, m]])
+13:32:16.926 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: input[type=text]], [g, a, s, t, r, o, @, d, o, k, b, i, d, ., c, o, m]]
+13:32:16.932 INFO - Executing: [find element: By.cssSelector: input[type=password]])
+13:32:16.959 INFO - Done: [find element: By.cssSelector: input[type=password]]
+13:32:16.964 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: input[type=password]], [T, e, s, t, 1, 2, 3, 4]])
+13:32:17.080 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: input[type=password]], [T, e, s, t, 1, 2, 3, 4]]
+13:32:17.084 INFO - Executing: [find element: By.cssSelector: button[type=submit]])
+13:32:17.106 INFO - Done: [find element: By.cssSelector: button[type=submit]]
+13:32:17.115 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: button[type=submit]]])
+13:32:17.193 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: button[type=submit]]]
+13:32:17.200 INFO - Executing: [take screenshot])
+13:32:17.719 INFO - Done: [take screenshot]
+13:32:17.738 INFO - Executing: [find elements: By.cssSelector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30])
+13:32:17.930 INFO - Done: [find elements: By.cssSelector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30]
+13:32:17.935 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30]])
+13:32:17.965 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30]]
+13:32:17.973 INFO - Executing: [find element: By.cssSelector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30])
+13:32:18.003 INFO - Done: [find element: By.cssSelector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30]
+13:32:18.008 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30]])
+13:32:18.040 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: html body.view-login div#root div div.container div.container.white-background div h1.text-center.md-pb-30]]
+13:32:18.046 INFO - Executing: [take screenshot])
+13:32:18.277 INFO - Done: [take screenshot]
+13:32:18.287 INFO - Executing: [find element: By.cssSelector: html body.view-login div#root div div.navigation div.right-menu button.btn.btn-link])
+13:32:18.313 INFO - Done: [find element: By.cssSelector: html body.view-login div#root div div.navigation div.right-menu button.btn.btn-link]
+13:32:18.316 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: html body.view-login div#root div div.navigation div.right-menu button.btn.btn-link]])
+13:32:18.390 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: html body.view-login div#root div div.navigation div.right-menu button.btn.btn-link]]
+13:32:18.398 INFO - Executing: [find elements: By.cssSelector: body])
+13:32:18.411 INFO - Done: [find elements: By.cssSelector: body]
+13:32:18.415 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: body]])
+13:32:18.431 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: body]]
+13:32:18.437 INFO - Executing: [take screenshot])
+13:32:19.020 INFO - Done: [take screenshot]
+13:32:19.047 INFO - Executing: [find elements: By.cssSelector: body])
+13:32:19.063 INFO - Done: [find elements: By.cssSelector: body]
+13:32:19.070 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: body]])
+13:32:19.095 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: body]]
+13:32:19.100 INFO - Executing: [find element: By.cssSelector: #root > div > div.container > div > div > div > div > div > h2])
+13:32:19.126 INFO - Done: [find element: By.cssSelector: #root > div > div.container > div > div > div > div > div > h2]
+13:32:19.130 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: #root > div > div.container > div > div > div > div > div > h2]])
+13:32:19.162 INFO - Done: [get text: 7 [[ChromeDriver: chrome on MAC (209036634cdf3273fb4ed5455e0e86a3)] -> css selector: #root > div > div.container > div > div > div > div > div > h2]]
+13:32:19.169 INFO - Executing: [delete session: e87121e8-e5f0-47c0-afc4-7c4714516704])
+13:32:19.281 INFO - Done: [delete session: e87121e8-e5f0-47c0-afc4-7c4714516704]
