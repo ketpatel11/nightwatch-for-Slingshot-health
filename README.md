@@ -1,2 +1,2 @@
 # nightwatch-for-Slingshot-health
-# to run the test go nightwatch and type "npm test"
+# to run the test go to nightwatch project and type "npm test"
